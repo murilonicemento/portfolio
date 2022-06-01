@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #22212c;
+    font-family: "Merriweather Sans";
+    color: #837E9F;
+}
+a{
+    text-decoration: none;
+    color: #837E9F;
+}
+li{
+    list-style: none;
+}
+/*Cards da Esquerda*/
+#cards{
+    width: 300px;
+    height: 1340px;
+    margin: 20px;
+    float: left;
+}
+.card1, .card2, .card3, .card4, .card5{
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: #302F3D;
+}
+.card1{
+    height: 300px;
+    margin-top: 0;
+}
+.card2{
+    height: 380px;
+}
+.card3{
+    height: 200px;
+}
+.card4{
+    height: 400px;
+}
+.card5{
+    height: 160px;
+}
+/*Imagens*/
+.card1 img{
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 75px;
+    border-radius: 80px;
+}
+/*Formatação Principal Esquerda*/
+.name{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+}
+.description{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+svg{
+    margin: 30px 0 0 15px;
+}
+span, a{
+    font-size: 13px;
+    float: right;
+}
+#brasil{
+    margin: 36px 215px 0 0;
+}
+#freelancer{
+    margin: 37px 185px 0 0;
+}
+#github{
+    margin: 36px 143px 0 0;
+}
+#linkedin{
+    margin: 39px 133px 0 0;
+}
+#portifolio{
+    margin: 37px 85px 0 0;
+}
+#email{
+    margin: 36px 20px 0 0;
+}
+.card3 h3{
+    padding: 20px 0 0 18px;
+}
+.card3 ul li{
+    margin: 10px 0 0 18px;
+    padding: 7px;
+    display: inline-block;
+    background-color: #CB92B1;
+    border-radius: 15px;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+}
+.card4 h3{
+    padding: 20px 0 0 18px;
+}
+.card5 h3{
+    padding: 20px 0 0 18px;
+}
+.org{
+    font-weight: bold;
+}
+.card5 ul li{
+    margin: 10px 0 0 30px;
+    font-size: 12px;
+    list-style: disc;
+}
+/*Formatação Principal Direita*/
+aside{
+    float: right;
+}
+#projetos, .repositorio, #posts, #aboutme{
+    margin: 20px 20px 0 0; 
+    border-radius: 10px;
+    background-color: #302F3D;
+}
+#projetos{
+    width: 980px;
+    height: 40px;
+    padding-top: 20px;
+}
+#projetos h4{
+    padding-left: 20px;
+}
+.repositorio{
+    width: 480px;
+    height: 130px;
+    float: left;
+    padding-left: 2px;
+}
+.repositorio h4{
+    margin: 20px 0 0 20px;
+}
+.repositorio p{
+    margin: 10px 20px 0 20px;
+    font-size: 13px;
+}
+.repositorio svg{
+    width: 18px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.icons{
+    display: inline;
+    margin-left: 325px;
+}
+#posts{
+    height: 40px;
+    padding-top: 20px;
+}
+#posts h4{
+    padding-left: 20px;
+}
+#aboutme{
+    height: 150px;
+}
+#aboutme img{
+    width: 120px;
+    border-radius: 80px;
+    margin: 15px 0 0px 20px;
+}
+.info{
+    float: right;
+    margin: 23px 600px 0 0;
+}
+.info h5{
+    font-weight: bold;
+}
+.info p{
+    font-size: 15px;
+    margin-top: 8px;
+}
